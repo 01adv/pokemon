@@ -6,7 +6,7 @@ const SearchBar = ({ value, onChange }) => {
       <input
         type="text"
         placeholder="Search Pokemon"
-        className="w-full text-xs bg-transparent py-2 outline-none"
+        className="w-full text-base bg-transparent py-2 outline-none"
         value={value}
         onChange={onChange}
       />
